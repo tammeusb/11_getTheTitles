@@ -1,10 +1,14 @@
-const getTheTitles = function(books) {
+/*const getTheTitles = function(books) {
     titles = [];
     books.forEach((book) => {
         titles = titles.concat(book.title);
     })
     return titles
-};
+};*/
+
+const getTheTitles = function(books) {
+    return books.map((book) => book.title)
+}
 
 const booksTest = [
     {
